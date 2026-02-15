@@ -1,9 +1,11 @@
 -- LeetCode Problem: 1683. Invalid Tweets
 -- Difficulty: Easy
--- Link: https://leetcode.com/problems/
+-- Link: https://leetcode.com/problems/invalid-tweets
 
 -- ============================================
--- Write your solution below
+  select tweet_id
+  from Tweets
+  where len(content) > 15
 -- ============================================
 
 
